@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/main_nav_graph"
+            app:startDestination="@id/closedPRFragment">
+
+    <fragment android:id="@+id/closedPRFragment"
+              android:name="com.example.githubapi.presentation.view.ClosedPRFragment"
+              android:label="@string/closed_fragment_title"
+              tools:layout="@layout/closed_pr_fragment">
+
+        <action android:id="@+id/action_closedPRFragment_to_singleUserFragment"
+            app:destination="@id/singleUserFragment"/>
+    </fragment>
+
+    <fragment android:id="@+id/singleUserFragment"
+        android:name="com.example.githubapi.presentation.view.SingleUserFragment"
+        android:label="@string/single_user_fragment_title"
+        tools:layout="@layout/single_user_fragment">
+
+    </fragment>
+</navigation>
