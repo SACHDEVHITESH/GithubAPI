@@ -24,3 +24,6 @@ https://drive.google.com/file/d/16FvFqRgdKTwjDO3ZngFt_xnirfjdJcY0/view?usp=shari
 Google Drive Link for Recording
 =========
 https://drive.google.com/file/d/1m1es2-3PhvNTEhh11G825M64Nj8vive2/view?usp=sharing
+
+(For the assignment purpose i have used some other person github profile)
+(You can change the profile and repo to view details of some other user and repo in the file ***GithubApi.kt***)
